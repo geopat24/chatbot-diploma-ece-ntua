@@ -1,0 +1,32 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - ask_location
+
+entities:
+  - location
+
+slots:
+  location:
+    type: any
+    mappings:
+    - type: from_entity
+      entity: location
+
+responses:
+  utter_greet:
+  - text: "Γεια! Πώς μπορώ να βοηθήσω;"
+
+  utter_goodbye:
+  - text: "Θα είμαι εδώ αν με ξαναχρειαστείς."
+
+actions:
+  - action_show_exhibits_location
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
