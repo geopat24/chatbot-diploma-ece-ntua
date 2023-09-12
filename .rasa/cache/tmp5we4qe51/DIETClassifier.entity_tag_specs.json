@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-animal",
+      "2": "I-animal",
+      "3": "L-animal",
+      "4": "U-animal",
+      "5": "B-location",
+      "6": "I-location",
+      "7": "L-location",
+      "8": "U-location",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-animal": 1,
+      "I-animal": 2,
+      "L-animal": 3,
+      "U-animal": 4,
+      "B-location": 5,
+      "I-location": 6,
+      "L-location": 7,
+      "U-location": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]
