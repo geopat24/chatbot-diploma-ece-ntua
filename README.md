@@ -1,1 +1,1 @@
-RASA powered chatbot to be integrated in museum related web applications.
+RASA powered chatbot to be integrated in museum related web applications. Flask web server, frontend, neo4j database to be added.
